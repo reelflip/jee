@@ -1,3 +1,111 @@
-body { font-family: Arial, sans-serif; margin: 20px; }
-h1, h2 { color: #003366; }
-input, button { padding: 8px; margin: 5px; }
+body.auth-body {
+  background: #f5f7fb;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-card {
+  background: white;
+  width: 360px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-card h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.auth-card .orange {
+  color: orange;
+}
+
+.logo {
+  width: 100px;
+  margin: 10px 0;
+}
+
+.auth-card h2 {
+  font-size: 24px;
+  color: #1d4ed8;
+}
+
+.tagline {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.auth-card h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  background: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.forgot {
+  float: right;
+  font-size: 12px;
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.switch {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.switch a {
+  color: #1d4ed8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-top: 25px;
+  color: gray;
+}
+
+#loginMsg,
+#registerMsg {
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+}
